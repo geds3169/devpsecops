@@ -34,7 +34,7 @@ Table des matières
 
 [Les arguments](Terraform_Proxmox-4.md)
 
-[Quelques exemples de fichier ressource (template)](Terraform_Proxmox-5.md)
+[Quelques exemples de fichier ressources (template)](Terraform_Proxmox-5.md)
 
 [Prérequis](Terraform_Proxmox-6.md)
 

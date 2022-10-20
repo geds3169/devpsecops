@@ -12,7 +12,7 @@ Un peu de théorie
 
 ### Qu'est-ce que Terraform ?
 
-</br/>
+</br>
 
 Terraform est extrêmement puissant et pratique c'est un IAC « d'infrastructure en tant que code», Open Source, propriété de HashiCorp (celui-là même qui fourni Vagrant.
 

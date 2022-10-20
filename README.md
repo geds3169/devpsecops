@@ -12,5 +12,5 @@ Si vous apportez une quelconque modification/amélioration, merci de bien vouloi
 </p>
 <p>
 Note:
-  - Si vous cloner le repository, la lecture est bien plus agréable avec l'outil MarkText https://github.com/marktext/marktext , permettant de cocher les tâches déjà effectué.
+  - Si vous clonez le repository, la lecture est bien plus agréable avec l'outil MarkText https://github.com/marktext/marktext , permettant de cocher les tâches déjà effectué.
 </p>

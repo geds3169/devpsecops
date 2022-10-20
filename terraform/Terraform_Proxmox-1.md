@@ -7,8 +7,8 @@ Terraform / Proxmox
 </h1>
 
 ---
-
-<img title="" src="Terraform_principe.png" alt="" width="251" data-align="center">
+<p align="center">
+<img title="" src="Terraform_principe.png" alt="">
 
 </br>
 

@@ -8,7 +8,7 @@ Terraform / Proxmox
 
 ---
 
-<img title="" src="file:///C:/Users/guilh/AppData/Roaming/marktext/images/2022-10-19-16-35-25-Terraform_principe.png" alt="" width="251" data-align="center">
+<img title="" src="Terraform_principe.png" alt="" width="251" data-align="center">
 
 </br>
 

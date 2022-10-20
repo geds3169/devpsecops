@@ -7,13 +7,13 @@ Terraform / Proxmox
 </h1>
 
 ---
-<p align="center">
-<img title="" src="Terraform_principe.png" alt="">
-
+<p align="center" width="100%">
+  <img width="33%" src="Terraform_principe.png">
+</p>
 </br>
 
 <p style="font-size:12px; "> 
-<a href="https://registry.terraform.io/browse/providers">Terraform Registry</a></a>
+<a href="https://registry.terraform.io/browse/providers">Terraform Registry</a>
 </p>
 
 </br>

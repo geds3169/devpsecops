@@ -10,7 +10,7 @@ Un peu de théorie
 
 </br>
 
-### Quelques exemples de fichier ressource (template)
+### Quelques exemples de fichier ressources (template)
 
 </br>
 

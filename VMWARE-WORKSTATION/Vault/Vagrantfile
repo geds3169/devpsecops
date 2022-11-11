@@ -1,0 +1,44 @@
+require 'vagrant-vmware-desktop'
+# vagrant plugin install vagrant-vmware-desktop
+# vagrant plugin install vagrant-triggers
+# vagrant plugin install vagrant-address
+
+ENV["LC_ALL"] = "fr_FR.UTF-8"
+
+Vagrant.configure("2") do |config|
+    # Required version
+    Vagrant.require_version ">= 2.3.1"
+    # Update the plugins if not present
+    if Vagrant.has_plugin?("vmware_desktop") then
+        config.vmware_desktop.auto_update = true
+    end
+    config.vm.box = "centos/7"
+    # VM Name
+    config.vm.define "Vault"
+    # ADD VM domain.tld
+    #config.vm.hostname = "exemple.com"
+    # Because by default is used the first interface with NAT and DHCP
+    config.vm.network "private_network", ip: "192.168.99.11"
+    config.ssh.forward_agent = true
+    # Port forward for all interface
+    config.vm.network "forwarded_port", guest: 22, host: 2222,
+    auto_correct: true
+    # Port foward for Vault Web GUI
+    config.vm.network "forwarded_port", guest: 8200, host: 8200,
+    auto_correct: true
+    # Add tools and software, config
+    config.vm.provision :shell do |shell|
+        shell.path = "install_tools.sh"
+        shell.env = { 'ENABLE_ZSH' => ENV['ENABLE_ZSH'] }
+    end
+    # Provider (vmware_desktop/virtualbox)
+    # |p| Ignores provider config options, |v| Display Vagrant version
+    config.vm.provider "vmware_desktop" do |v|
+        # Settings VM
+        v.gui = true
+        v.memory = 2048
+        v.cpus = 2
+        # Disable linked clones
+        v.linked_clone = false
+    end
+  end

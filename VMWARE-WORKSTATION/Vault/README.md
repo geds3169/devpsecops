@@ -15,7 +15,7 @@ Explanatory documentation is currently being edited.
 <p>3 - Run the command: vagrant up
 <p>° Wait and Drink a ☕
 <p>4- Read the information in your prompt/Shell.
-<p>5- The SSH key is in the YOUR_FOLDER/Docker/.vagrant/machines/Docker folder
+<p>5- The SSH key is in the YOUR_FOLDER/Vault/.vagrant/machines/Vault/vmware_desktop/
 </br>
 </br>
 <p>For best performance, prefer the installation on a second hard disk so as not to alter the performance of your system.

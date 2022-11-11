@@ -9,6 +9,7 @@ This is not the Dev version, but the version that can be used in production.
 </br>
 Explanatory documentation is currently being edited.
 </br>
+</br>
 <p>1 - Clone the contents of the repository to a directory on your local machine/server.
 <p>2 - Open has prompt/terminal and navigated to the newly created folder.
 <p>3 - Run the command: vagrant up
